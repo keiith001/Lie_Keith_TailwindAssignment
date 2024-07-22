@@ -43,64 +43,63 @@
     </header>
 
     <!-- MAIN CONTENT -->
-    <main class="grid grid-cols-4 gap-4 ml-4 mr-4">
+    <main class="grid grid-cols-4 gap-4 ml-4 mr-4 md:grid-cols-8 lg:grid-cols-12">
         <!-- Hero Section -->
-        <section class="col-span-4 bg-[url('/images/mobile/m-hero-image.png')] bg-cover">
+        <section class="col-span-full rounded-[16px] bg-[url('/images/mobile/m-hero-image.png')] bg-cover md:bg-[url('/images/medium/md-hero-image.png')] lg:bg-[url('/images/large/l-hero-image.png')] lg:col-start-2 lg:col-span-10 lg:rounded-[26px]">
             <h2 class="hidden">Eternity Project</h2>
             <!-- Project Logo -->
             <div class="col-start-2 col-span-2">
-                <div class="flex flex-col items-center pt-10 pb-2 pl-auto pr-auto m-auto">
-                    <img class="h-10" src="./images/general/eternity-logo.png" alt="Eternity Project Logo">
-                    <a href="#" class="text-white">Visit Website</a>
+                <div class="flex flex-col items-center pt-10 pb-2 pl-auto pr-auto m-auto md:mt-8 lg:mt-12">
+                    <img class="h-10 lg:h-14" src="./images/general/eternity-logo.png" alt="Eternity Project Logo">
+                    <a href="#" class="text-white text-sm border-solid border-white border-2 rounded-full pt-1 pb-1 pr-3 pl-3 mt-2 lg:text-base">Visit Website</a>
                 </div>
             </div>
             <div class="flex flex-row justify-between items-start flex-wrap">
                 <!-- Design Approach -->
-                <div class="flex flex-col flex-wrap p-3">
-                    <h3 class="text-white text-xs mb-2">Design Approach</h3>
-                    <div class="bg-white pt-1 pb-1 pl-2 pr-2 rounded-md text-gray-500 mt-0.5">
+                <div class="flex flex-col flex-wrap p-3 lg:p-6">
+                    <h3 class="text-white text-xs mb-2 lg:text-sm">Design Approach</h3>
+                    <div class="bg-white pt-1 pb-1 pl-2 pr-2 rounded-md text-gray-500 mt-0.5 lg:pl-3 lg:pr-3">
                         <h4 class="hidden">Design Approach Details</h4>
-                        <p class="text-[8px] font-bold"><span class="text-orange-400">Human</span>-<span class="text-blue-500">Centered</span><span class="text-green-500"> Design</span> Approach</p>
-                        <p class="text-[6px] font-bold italic">by IDEO</p>
+                        <p class="text-[8px] font-bold lg:text-[12px]"><span class="text-orange-400">Human</span>-<span class="text-blue-500">Centered</span><span class="text-green-500"> Design</span> Approach</p>
+                        <p class="text-[6px] font-bold italic lg:text-[8px]">by IDEO</p>
                     </div>
                 </div>
 
                 <!-- Tools Used -->
-                <div class="flex flex-col flex-wrap p-3">
-                    <h3 class="text-white text-xs mb-2">Made with</h3>
+                <div class="flex flex-col flex-wrap p-3 lg:p-6">
+                    <h3 class="text-white text-xs mb-2 lg:text-sm">Made with</h3>
                     <div class="flex-row inline-flex">
                         <h4 class="hidden">Software Icons</h4>
-                        <img class="w-8 h-8 p-0.5" src="./images/general/blender-icon.svg" alt="Blender Software Icon">
-                        <img class="w-8 h-8 p-0.5" src="./images/general/figma-icon.svg" alt="Figma Software Icon">
-                        <img class="w-8 h-8 p-0.5" src="./images/general/ps-icon.svg" alt="Adobe Photoshop Software Icon">
-                        <img class="w-8 h-8 p-0.5" src="./images/general/ai-icon.svg" alt="Adobe Illustrator Software Icon">
+                        <img class="w-8 h-8 p-0.5 lg:w-12 lg:h-12" src="./images/general/blender-icon.svg" alt="Blender Software Icon">
+                        <img class="w-8 h-8 p-0.5 lg:w-12 lg:h-12" src="./images/general/figma-icon.svg" alt="Figma Software Icon">
+                        <img class="w-8 h-8 p-0.5 lg:w-12 lg:h-12" src="./images/general/ps-icon.svg" alt="Adobe Photoshop Software Icon">
+                        <img class="w-8 h-8 p-0.5 lg:w-12 lg:h-12" src="./images/general/ai-icon.svg" alt="Adobe Illustrator Software Icon">
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Project Overview Section -->
-        <section class="col-span-4">
-            <h2 class="hidden">Project Overview</h2>
+        <h2 class="hidden">Project Overview</h2>
 
             <!-- Project Overview -->
-            <article class="mb-2">
-                <h3 class="font-bold mb-4">Project Overview</h3>
-                <p class="text-sm mb-2">The goal of this project is to make a company profile website for Eternity Futures. It is a new investment and trading company in Indonesia.</p>
-                <p class="text-sm">As the UI/UX designer I also make the UI guidlines following the brand identity. Making all the website UI for then coded and implemented by the programming team. </p>
+            <article class="col-span-4 mb-2 lg:col-start-2 lg:col-span-5">
+                <h3 class="font-bold mb-4 lg:text-lg">Project Overview</h3>
+                <p class="text-sm mb-2 lg:text-base">The goal of this project is to make a company profile website for Eternity Futures. It is a new investment and trading company in Indonesia.</p>
+                <p class="text-sm lg:text-base">As the UI/UX designer I also make the UI guidlines following the brand identity. Making all the website UI for then coded and implemented by the programming team. </p>
             </article>
 
-            <div class="flex justify-between mt-4 mb-4">
+            <div class="col-span-4 flex justify-between mt-4 mb-4 md:m-0 lg:col-span-5">
                 <!-- Type -->
                 <div class="mr-1">
-                    <h3 class="font-bold">Type</h3>
-                    <p class="text-sm">Website</p>
+                    <h3 class="font-bold lg:text-lg">Type</h3>
+                    <p class="text-sm lg:text-base">Website</p>
                 </div>
 
                 <!-- Role -->
                 <div class="ml-1 mr-1">
-                    <h3 class="font-bold">Role</h3>
-                    <ul class="text-sm">
+                    <h3 class="font-bold lg:text-lg">Role</h3>
+                    <ul class="text-sm lg:text-base">
                         <li>UI/UX</li>
                         <li>Branding</li>
                         <li>3D</li>
@@ -109,24 +108,27 @@
 
                 <!-- Team -->
                 <div class="ml-1 mr-1">
-                    <h3 class="font-bold">Team</h3>
-                    <p class="text-sm">BIGDONTE <br> Entertainment</p>
+                    <h3 class="font-bold lg:text-lg">Team</h3>
+                    <p class="text-sm lg:text-base">BIGDONTE <br> Entertainment</p>
                 </div>
 
                 <!-- Date -->
                 <div class="ml-1">
-                    <h3 class="font-bold">Date</h3>
-                    <p class="text-sm">2022</p>
+                    <h3 class="font-bold lg:text-lg">Date</h3>
+                    <p class="text-sm lg:text-base">2022</p>
                 </div>
             </div>
-        </section>
 
         <!-- 1. Inspiration Phase -->
-        <section class="col-span-4 flex flex-col">
-            <h2 class="hidden">Inspiration Phase</h2>
+        <h2 class="hidden">Inspiration Phase</h2>
             <!-- Opening Section -->
-            <div class="flex flex-col-reverse">
-                <div>
+
+            <!-- Eternity Mockup Image Mobile-->
+            <div class="col-span-4 flex flex-col justify-center items-center md:hidden">
+                <img class="md:hidden" src="./images/mobile/m-eternity-mockup-img.png" alt="Eternity Project Website Mockup">
+            </div>
+
+                <div class="col-span-4 lg:col-start-2 lg:col-span-5">
                     <!-- Inspiration Definition -->
                     <div class="bg-orange-50 rounded-[14px] pt-0 text-xs border-dashed border-orange-200 border-2 mt-6 mb-6">
                         <h3 class="bg-orange-400 pt-1 pb-1 pl-2 pr-2  rounded-full text-white text-xs ">Inspiration</h3>
@@ -134,53 +136,53 @@
                     </div>
 
                     <!-- Problem Overview -->
-                    <div class="mt-2 mb-6">
-                        <h3 class="font-bold mb-4">Problem Faced</h3>
-                        <p class="text-sm">The client is a company called Topgrowth Futures which works on Forex and Commodity trading field. Most of their clients are older people ranged from 30 to 50 years old with a high economic status. However they want to expand their business to catch the interest of younger audiences. Then they create a new brand called Eternity and need a Brand Activation for younger ones to join them. </p>
+                    <div class="col-span-4 mt-2 mb-6">
+                        <h3 class="font-bold mb-4 lg:text-lg">Problem Faced</h3>
+                        <p class="text-sm lg:text-base">The client is a company called Topgrowth Futures which works on Forex and Commodity trading field. Most of their clients are older people ranged from 30 to 50 years old with a high economic status. However they want to expand their business to catch the interest of younger audiences. Then they create a new brand called Eternity and need a Brand Activation for younger ones to join them. </p>
                     </div>
                 </div>
                 
-                <!-- Eternity Mockup Image -->
-                <img class="block md:hidden" src="./images/mobile/m-eternity-mockup-img.png" alt="Eternity Project Website Mockup">
-
+            <!-- Eternity Mockup Image Medium ++ -->
+            <div class="md:col-span-4 md:flex md:flex-col md:justify-center md:items-center lg:hidden">
                 <img class="hidden md:block" src="./images/medium/md-eternity-mockup-img.png" alt="Eternity Project Website Mockup">
             </div>
 
+            <div class="lg:col-span-5 md:flex md:flex-col md:justify-center md:items-center">
+                <img class="hidden lg:block" src="./images/large/l-eternity-mockup-img.png" alt="Eternity Project Website Mockup">
+            </div>
+
             <!-- Problem Statement -->
-            <div class="col-span-4 mt-4 mb-4">
                 <!-- Client Problem Statement -->
-                <div class="flex flex-row flex-nowrap items-start mb-6">
+                <div class="col-span-4 flex flex-row flex-nowrap items-start mb-6 md:col-start-1 md:col-span-4 lg:col-start-2 lg:col-span-5">
                     <!-- Client Icon -->
                     <div class="flex flex-col justify-center items-center mr-4">
                         <img class="h-20 w-20 mb-2" src="./images/general/eternity-client-icon.png" alt="Client Illustration Icon">
-                        <h3 class="font-bold text-xs text-red-500 ml-6 mr-6">Client</h3>
+                        <h3 class="font-bold text-xs text-red-500 ml-6 mr-6 lg:text-sm">Client</h3>
                     </div>
-                    <p class="text-[10px] bg-red-50 p-2 border-2 border-dashed border-red-300 rounded-xl">“We need to activate our brand with visuals and flows that could engage young audiences to be interested in trading without worry”</p>
+                    <p class="text-[10px] bg-red-50 p-2 border-2 border-dashed border-red-300 rounded-xl lg:text-sm">“We need to activate our brand with visuals and flows that could engage young audiences to be interested in trading without worry”</p>
                 </div>
 
                 <!-- Questions and Deductions -->
-                <div class="flex flex-row flex-nowrap items-start mb-6">
+                <div class="col-span-4 flex flex-row flex-nowrap items-start mb-6 md:col-span-4 lg:col-span-5">
                     <!-- Me Icon -->
                     <div class="flex flex-col justify-center items-center mr-4">
                         <img class="h-20 w-20 mb-2" src="./images/general/me-icon.png" alt="Designer's Illustration Icon">
-                        <h3 class="font-bold text-xs text-brown-500 ml-8 mr-8">Me</h3>
+                        <h3 class="font-bold text-xs text-brown-500 ml-8 mr-8 lg:text-sm">Me</h3>
                     </div>
                     <!-- Questions and Deductions List -->
                     <ul>
-                        <li class="text-[10px] bg-amber-50 p-2 border-2 border-dashed border-amber-500 rounded-xl mb-2">“How might we activate the brand in this digital era?”</li>
-                        <li class="text-[10px] bg-amber-50 p-2 border-2 border-dashed border-amber-500 rounded-xl mb-2">“We could try several possible solution for the first step! It might need a base for information through digital media, the more it accessible for users the better it is.”</li>
-                        <li class="text-[10px] bg-amber-50 p-2 border-2 border-dashed border-amber-500 rounded-xl mb-2">“We want to target young generation to be aware of eternity and try to join it”</li>
-                        <li class="text-[10px] bg-amber-50 p-2 border-2 border-dashed border-amber-500 rounded-xl mb-2">“It has to be eye catching and modern so that young people could be engaged and remember the brand”</li>
+                        <li class="text-[10px] bg-amber-50 p-2 border-2 border-dashed border-amber-500 rounded-xl mb-2 lg:text-sm">“How might we activate the brand in this digital era?”</li>
+                        <li class="text-[10px] bg-amber-50 p-2 border-2 border-dashed border-amber-500 rounded-xl mb-2 lg:text-sm">“We could try several possible solution for the first step! It might need a base for information through digital media, the more it accessible for users the better it is.”</li>
+                        <li class="text-[10px] bg-amber-50 p-2 border-2 border-dashed border-amber-500 rounded-xl mb-2 lg:text-sm">“We want to target young generation to be aware of eternity and try to join it”</li>
+                        <li class="text-[10px] bg-amber-50 p-2 border-2 border-dashed border-amber-500 rounded-xl mb-2 lg:text-sm">“It has to be eye catching and modern so that young people could be engaged and remember the brand”</li>
                     </ul>
                 </div>
-            </div>
 
             <!-- Target Audience -->
-            <div class="col-span-4 mb-4">
                 <!-- Defining Target Audience -->
-                <div class="mb-6">
-                    <h3 class="font-bold mb-4">Defining Target Audience</h3>
-                    <ul class="text-sm list-disc pl-4">
+                <div class="col-span-4 mb-6 lg:col-start-2 lg:col-span-5">
+                    <h3 class="font-bold mb-4 lg:text-lg">Defining Target Audience</h3>
+                    <ul class="text-sm list-disc pl-4 lg:text-base">
                         <li>In this step, I try to define the target audience by interviewing the client</li>
                         <li>Then I also ask opinions from my creative director about the psychological traits the audience have</li>
                         <li>Finally with the base in mind, I try to ask around such as my friends which fits in the category about their preferences and what are their motivation in start trading</li>
@@ -188,63 +190,61 @@
                 </div>
 
                 <!-- Target Audience Detail -->
-                <div class="col-span-4 bg-blue-50 border-solid border-2 border-blue-300 rounded-xl p-4">
-                    <h3 class="font-bold text-sm pb-2">Target Audience in Short</h3>
+                <div class="col-span-4 bg-blue-50 border-solid border-2 border-blue-300 rounded-xl p-4 lg:col-span-5">
+                    <h3 class="font-bold text-sm pb-2 lg:text-base">Target Audience in Short</h3>
 
                     <!-- Age -->
-                    <div class="flex flex-row text-xs">
+                    <div class="flex flex-row text-xs lg:text-sm">
                         <h4 class="font-semibold">Age</h4>
-                        <p class="ml-20">18 - 24 (Primary) 25+ (Secondary)</p>
+                        <p class="ml-20 lg:ml-[86px]">18 - 24 (Primary) 25+ (Secondary)</p>
                     </div>
 
                     <!-- Gender -->
-                    <div class="flex flex-row text-xs">
+                    <div class="flex flex-row text-xs lg:text-sm">
                         <h4 class="font-semibold">Gender</h4>
-                        <p class="ml-[60px]">Male & Female</p>
+                        <p class="ml-[60px] lg:ml-[64px]">Male & Female</p>
                     </div>
 
                     <!-- Geography -->
-                    <div class="flex flex-row text-xs">
+                    <div class="flex flex-row text-xs lg:text-sm">
                         <h4 class="font-semibold">Geography</h4>
-                        <p class="ml-[38px]">Indonesia</p>
+                        <p class="ml-[38px] lg:ml-[40px]">Indonesia</p>
                     </div>
 
                     <!-- Economic -->
-                    <div class="flex flex-row text-xs">
+                    <div class="flex flex-row text-xs lg:text-sm">
                         <h4 class="font-semibold">Economic</h4>
-                        <p class="ml-[45px]">Middle to High Economic Condition</p>
+                        <p class="ml-[45px] lg:ml-[48px]">Middle to High Economic Condition</p>
                     </div>
 
                     <!-- Psychography -->
-                    <div class="flex flex-row text-xs">
+                    <div class="flex flex-row text-xs lg:text-sm">
                         <h4 class="font-semibold">Psychography</h4>
                         <p class="ml-[18px]">People who have an active income varies from pocket money or salary that consider investing. With their basic needs are already fulfilled and have spares or could get funds.</p>
                     </div>
                 </div>
-            </div>
-        </section>
 
         <!-- Coming Soon Section -->
-        <section class="col-span-4 mb-6">
+        <section class="col-span-full mt-10 mb-10">
             <div class="flex flex-col justify-center items-center">
-                <h2 class="font-bold m-1">More Coming soon</h2>
-                <p class="text-sm text-center m-1">This is an on-going portfolio page, and will be updated soon.</p>
-                <img class="m-1" src="./images/general/me-icon.png" alt="Designer's Illustration Icon">
+                <h2 class="font-bold m-1 lg:text-lg">More Coming soon</h2>
+                <p class="text-sm text-center m-1 lg:text-base">This is an on-going portfolio page, and will be updated soon.</p>
+                <img class="m-1 lg:mt-2 lg:w-20" src="./images/general/me-icon.png" alt="Designer's Illustration Icon">
             </div>
         </section>
 
     </main>
 
     <!-- FOOTER -->
-    <footer class="flex flex-row p-4 justify-between items-baseline bg-white">
+    <footer class="flex flex-row p-4 justify-between items-center bg-gray-800">
         <!-- Logo -->
-        <a class="mb-4" href="#">
-            <img class="w-20" src="./images/general/kithrichrd-logo.svg" class="" alt="Kith Richrd Logo">
+        <a class="mb-2 mt-2" href="#">
+            <img class="w-20" src="./images/general/kithrichrd-logo-white.svg" alt="Kith Richrd Logo">
         </a>
 
         <!-- Copyright Statement -->
         <div class="">
-            <p class="text-xs">©2024 Kith Richrd All Rights Reserved.</p>
+            <p class="text-xs text-white">©2024 Kith Richrd All Rights Reserved.</p>
         </div>
     </footer>
 
